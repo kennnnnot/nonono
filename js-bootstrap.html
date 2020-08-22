@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js项目使用</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://y.gtimg.cn/music/h5/client/jsbridge.js?max_age=2592000"></script>
+</head>
+<body>
+    
+   
+    <button class="btn btn-defult" onclick="displaydate()" id="demo">点击显示当前时间</button>
+
+    <script>
+        function displaydate(){
+            document.getElementById("demo").innerHTML=Date();
+        }
+    </script><br>
+    <button onclick="alert('欢迎！')" class="btn btn-defult">点我欢迎</button>
+    <input id="demo2" type="text">
+<script>
+function myFunction()
+{
+	var x=document.getElementById("demo2").value;
+	if(isNaN(x)||x.replace(/(^\s*)|(\s*$)/g,"")==""){
+		alert("不是数字");
+	}
+}
+</script>
+<button type="button" onclick="myFunction()">点击这里</button>
+
+</body>
+</html>

@@ -1,49 +1,79 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<!-- 新 Bootstrap 核心 CSS 文件 -->
-		<link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-		 
-		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-		<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
-		 
-		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-		<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<title></title>
-	</head>
-	<body>
-		<nav class="navbar navbar-default" role="navigation">
-			<div class="container-fluid">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="#">冬夏酱的主页</a>
-			</div>
-			<div>
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#">项目</a></li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-							更新日志
-							<b class="caret"></b>
-						</a>
-						<ul class="dropdown-menu">
-							<li><a href="#">jmeter</a></li>
-							<li><a href="#">EJB</a></li>
-							<li><a href="#">Jasper Report</a></li>
-							<li class="divider"></li>
-							<li><a href="#">分离的链接</a></li>
-							<li class="divider"></li>
-							<li><a href="#">另一个分离的链接</a></li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-			</div>
-		</nav>
-		
-		<div>	
-			sssss sdfasdasd水水撒撒大苏打实打实阿三大苏打实打实的
-		</div>
-	</body>
+<head>
+	<meta charset="utf-8"> 
+	<title>冬夏酱的主页</title>
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style>
+    .fakeimg {
+        height: 200px;
+         background: #aaa;
+    }
+  </style>
+</head>
+<body>
+<div class="jumbotron text-center" style="margin-bottom:0;background: url(/img/IMG_3992.JPG);background-size:cover;background-position: center;" >
+  <h1 style="color: white;">oh，i'm so lazy</h1>
+  <p style="color: white;">冬夏酱@MIU404更新了吗</p>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                            
+      </button>
+      <a class="navbar-brand" href="#">Homepage</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">首页</a></li>
+        <li><a href="/css-bootstrap.html">css框架练习</a></li>
+        <li><a href="/js-bootstrap.html">bootstrap-js框架练习</a></li>
+        <li><a href="/phptest.html">python练习</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>日历</h2>
+      <h5>当前日期</h5>
+      <div class="fakeimg">插入日历</div>
+      <p>关于我的介绍..</p>
+      <h3>社交平台</h3>
+      <p>给一点关注吧！</p>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#">新浪微博</a></li>
+        <li><a href="#">Github主页</a></li>
+        <li><a href="#">腾讯QQ</a></li>
+      </ul>
+      <hr class="hidden-sm hidden-md hidden-lg">
+    </div>
+    <div class="col-sm-8">
+      <h2>标题</h2>
+      <h5>副标题</h5>
+      <div class="fakeimg">图像</div>
+      <p>一些文本..</p>
+      <p>长说明文本，请填充内容！长说明文本，请填充内容！长说明文本，请填充内容！长说明文本，请填充内容！长说明文本，请填充内容！长说明文本，请填充内容！</p>
+      <br>
+      <h2>标题</h2>
+      <h5>副标题</h5>
+      <div class="fakeimg">图像</div>
+      <p>一些文本..</p>
+      <p>长说明文本，请填充内容！长说明文本，请填充内容！长说明文本，请填充内容！长说明文本，请填充内容！长说明文本，请填充内容！长说明文本，请填充内容！</p>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>底部内容</p>
+</div>
+</body>
 </html>
